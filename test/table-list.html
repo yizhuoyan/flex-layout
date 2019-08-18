@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/flex-layout.css"/>
+		<title></title>
+		<style>
+			body{
+				margin: 0;
+			}
+			header{
+				border: 1px solid black;
+			}
+			table{
+				border-collapse: collapse;
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<article >
+			<header class="pad-small">
+				<a>首页</a>/<a>用户管理</a>/<a>用户列表</a>/
+			</header>
+			<section class="flex-hbox-between pad">
+				<div>
+					<button>新增</button>
+					<button class="mar-h">删除</button>
+				</div>
+				<div>
+					<input /><button>Go</button>
+					
+				</div>
+			</section>
+			<section class="pad">
+				<table border="1" >
+					<thead>
+						<tr>
+							<th>
+								#
+							</th>
+							<th>filed1</th>
+							<th>filed2</th>
+							<th>filed3</th>
+							<th>filed4</th>
+							<th>filed5</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>filed1</td>
+							<td>filed2</td>
+							<td>filed3</td>
+							<td>filed4</td>
+							<td>filed5</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>filed1</td>
+							<td>filed2</td>
+							<td>filed3</td>
+							<td>filed4</td>
+							<td>filed5</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>filed1</td>
+							<td>filed2</td>
+							<td>filed3</td>
+							<td>filed4</td>
+							<td>filed5</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>filed1</td>
+							<td>filed2</td>
+							<td>filed3</td>
+							<td>filed4</td>
+							<td>filed5</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			<section class="flex-hbox-between pad-h">
+				<div>
+					<span>共100条记录</span>
+					<span>每页10条</span>
+					<span>共10页</span>
+				</div>
+				<div>
+					<a>首页</a>
+					<a>上一页</a>
+					<a>下一页</a>
+					<a>末页</a>
+					
+				</div>
+			</section>
+		</article>
+	</body>
+</html>

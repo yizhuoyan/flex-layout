@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link href="../css/flex-layout.css" rel="stylesheet" />
+		<style>
+			body {
+				margin: 0;
+			}
+			article {
+				width: 100vw;
+				height: 100vh;
+			}
+
+			header {
+				background: black;
+				color: white;
+			}
+			
+
+			iframe {
+				width: 100%;
+				height: 100%;
+				display: block;
+				border: 0;
+			}
+			menu{
+				padding: 0;
+				margin: 0;
+				background: gray;
+				width: 200px;
+			}
+			h1{
+				margin: 0;
+			}
+			ul {
+				padding: 0;
+				margin: 0;
+			}
+			ul>li{
+				margin-bottom: .5em;
+			}
+			ul>li>a:hover{
+				background: #ff33ff;
+			}
+			ul>li>a{
+				display: block;
+				text-align: center;
+				cursor: pointer;
+				background: #33ff33;
+				padding: .5em;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<article class="flex-vbox">
+			<header class="pad">
+				<h1>xxx系统</h1>
+			</header>
+			<section class="flex-auto flex-hbox">
+				<menu>
+					<ul>
+						<li><a href="#">功能1</a></li>
+						<li><a href="#">功能2</a></li>
+						<li><a href="#">功能3</a></li>
+						<li><a href="#">功能4</a></li>
+					</ul>
+				</menu>
+				<main class="flex-auto">
+					<iframe name="mainFrame" src="https://www.baidu.com"></iframe>
+
+				</main>
+			</section>
+		</article>
+
+	</body>
+</html>
